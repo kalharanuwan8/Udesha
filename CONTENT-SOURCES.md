@@ -8,6 +8,8 @@ The revised page uses the edited files supplied by the user as its base. LinkedI
 - NPRS 2026 and the 16 July 2026 Bill discussion: official minute-taking roles and event details.
 - Stage drama promotion: captions, campaign-team membership and leadership of tea-brand sponsorship coordination. The brand name and campaign metrics were not supplied.
 - Special-day Facebook captions, Sannasa script/performance/event-management roles, Green Spire vice-secretary role, Viduneth and Kunjanada project involvement, and Sanjanani 2025 promotional-video participation.
+- Sannasa Cultural Festival details directly supplied by user: 10th Anniversary of the PR & Media Management Degree Programme, Role in Script Writing | Performing | Event Management.
+- Portfolio contributions organized into two clear categories: Department Contributions (PR & Media Management Programme & Department of Mass Communication) and University Contributions (University of Kelaniya campus-wide summits, student clubs, and community initiatives).
 - Supplied board announcements identify the 2025/26 GreenSpire vice-secretary and Humane Society content-writing manager roles.
 
 ## Reviewed LinkedIn posts
