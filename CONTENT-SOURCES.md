@@ -6,10 +6,13 @@ The revised page uses the edited files supplied by the user as its base. LinkedI
 
 - HardTalk (Pvt) Ltd: Creative Writer internship, November 2025–present, on-site in Colombo. The profile page itself was not accessible; no extra job duties or achievements were inferred.
 - NPRS 2026 and the 16 July 2026 Bill discussion: official minute-taking roles and event details.
-- Stage drama promotion: captions, campaign-team membership and leadership of tea-brand sponsorship coordination. The brand name and campaign metrics were not supplied.
+- Stage drama promotion: captions, campaign-team membership and leadership of tea-brand sponsorship coordination. Official stage drama promotional poster supplied at assets/images/image.png.
+- Project සුපින් පිළිසරු: Sustainable Partnership Avenue of the ZeroPlastic Movement, University of Kelaniya. Role: Event Coordinator on the Organizing Committee. Official committee announcement board supplied at assets/images/image4.png.
+- Janasannivedanaye Surya Mangalyaya: documentation team and musical performance; supplied photograph at assets/images/image2.png.
+- AI for Future Career Development workshop: workshop presentation stage photograph supplied at assets/images/image3.png.
 - Special-day Facebook captions, Sannasa script/performance/event-management roles, Green Spire vice-secretary role, Viduneth and Kunjanada project involvement, and Sanjanani 2025 promotional-video participation.
 - Sannasa Cultural Festival details directly supplied by user: 10th Anniversary of the PR & Media Management Degree Programme, Role in Script Writing | Performing | Event Management.
-- Portfolio contributions organized into two clear categories: Department Contributions (PR & Media Management Programme & Department of Mass Communication) and University Contributions (University of Kelaniya campus-wide summits, student clubs, and community initiatives).
+- Portfolio contributions organized into two clear categories: Department Contributions (PR & Media Management Programme & Department of Mass Communication, including NPRS 2026 and Media Professionals Bill Discussion) and University Contributions (University of Kelaniya student societies, sustainability initiatives, and community projects).
 - Supplied board announcements identify the 2025/26 GreenSpire vice-secretary and Humane Society content-writing manager roles.
 
 ## Reviewed LinkedIn posts

@@ -35,7 +35,7 @@ if ('IntersectionObserver' in window) {
       });
     });
   }, {rootMargin: '-18% 0px -55% 0px', threshold: 0});
-  document.querySelectorAll('main section[id]').forEach(section => sectionObserver.observe(section));
+  document.querySelectorAll('main section[id]:not(#contributions), .contributions-block[id]').forEach(el => sectionObserver.observe(el));
 }
 
 // Native dialog supplies modal semantics, focus containment and Escape support.
@@ -87,3 +87,47 @@ dialog.addEventListener('close', () => {
   lastTrigger?.focus();
 });
 document.querySelector('#year').textContent = new Date().getFullYear();
+
+// Contributions Interactive Filter Switcher
+const filterButtons = document.querySelectorAll('.filter-tab-btn');
+const deptBlock = document.querySelector('#department-contributions');
+const univBlock = document.querySelector('#university-contributions');
+
+filterButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const target = button.dataset.filter;
+    filterButtons.forEach(btn => {
+      const isActive = btn === button;
+      btn.classList.toggle('is-active', isActive);
+      btn.setAttribute('aria-selected', String(isActive));
+    });
+
+    if (deptBlock && univBlock) {
+      deptBlock.classList.remove('is-hidden', 'is-fade-in');
+      univBlock.classList.remove('is-hidden', 'is-fade-in');
+
+      if (target === 'department') {
+        univBlock.classList.add('is-hidden');
+        deptBlock.classList.add('is-fade-in');
+      } else if (target === 'university') {
+        deptBlock.classList.add('is-hidden');
+        univBlock.classList.add('is-fade-in');
+      } else {
+        deptBlock.classList.add('is-fade-in');
+        univBlock.classList.add('is-fade-in');
+      }
+    }
+  });
+});
+
+// Ensure target block is visible when clicked from header navigation
+document.querySelectorAll('a[href^="#department-contributions"], a[href^="#university-contributions"]').forEach(link => {
+  link.addEventListener('click', () => {
+    const targetFilter = link.hash === '#department-contributions' ? 'department' : 'university';
+    const activeBtn = document.querySelector('.filter-tab-btn.is-active');
+    if (activeBtn && activeBtn.dataset.filter !== 'all' && activeBtn.dataset.filter !== targetFilter) {
+      const matchingBtn = document.querySelector(`.filter-tab-btn[data-filter="${targetFilter}"]`) || document.querySelector('.filter-tab-btn[data-filter="all"]');
+      matchingBtn?.click();
+    }
+  });
+});
